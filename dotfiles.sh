@@ -17,7 +17,7 @@ if [ $? -eq 0 ]; then
   cd "$REPO_NAME"
   stow nvim
   stow editorconfig
-  stow bash
+  stow bash_arch
   stow hyprland
   stow waybar
 else
