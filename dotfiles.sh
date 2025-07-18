@@ -20,6 +20,8 @@ if [ $? -eq 0 ]; then
   stow bash_arch
   stow hyprland
   stow waybar
+  stow kitty
+  stow starship
 else
   echo "Failed to clone the repository."
   exit 1
