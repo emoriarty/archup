@@ -22,6 +22,7 @@ if [ $? -eq 0 ]; then
   stow waybar
   stow kitty
   stow starship
+  stow backgrounds
 else
   echo "Failed to clone the repository."
   exit 1
