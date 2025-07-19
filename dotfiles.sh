@@ -23,6 +23,7 @@ if [ $? -eq 0 ]; then
   stow kitty
   stow starship
   stow backgrounds
+  stow wofi
 else
   echo "Failed to clone the repository."
   exit 1
